@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Smoke Test(failed)(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="RunMultipleGroups.GroupTest1">
+        <methods>
+          <include name="composeMail"/>
+        </methods>
+      </class> <!-- RunMultipleGroups.GroupTest1 -->
+    </classes>
+  </test> <!-- Smoke Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

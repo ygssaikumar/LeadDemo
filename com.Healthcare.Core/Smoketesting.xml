@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Smoke Test">
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="RunMultipleGroups.GroupTest2"/>
+      <class name="RunMultipleGroups.GroupTest1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="Test in firefox">
+  <parameter name="browser" value="FFX"> </parameter>
+    <classes>
+      <class name="Healthcare.com.Healthcare.Core.ParallelTesting"/>
+    </classes>
+  </test>
+  <test name="Test in chrome">
+  <parameter  name="browser" value="CRM"></parameter>
+    <classes>
+      <class name="Healthcare.com.Healthcare.Core.ParallelTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

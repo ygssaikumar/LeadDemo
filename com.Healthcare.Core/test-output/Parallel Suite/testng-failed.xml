@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel Suite]" parallel="tests">
+  <test name="Test in chrome(failed)" parallel="tests">
+    <classes>
+      <class name="Healthcare.com.Healthcare.Core.ParallelTesting">
+        <methods>
+          <include name="Verify_Title"/>
+        </methods>
+      </class> <!-- Healthcare.com.Healthcare.Core.ParallelTesting -->
+    </classes>
+  </test> <!-- Test in chrome(failed) -->
+  <test name="Test in firefox(failed)" parallel="tests">
+    <classes>
+      <class name="Healthcare.com.Healthcare.Core.ParallelTesting">
+        <methods>
+          <include name="Verify_Title"/>
+        </methods>
+      </class> <!-- Healthcare.com.Healthcare.Core.ParallelTesting -->
+    </classes>
+  </test> <!-- Test in firefox(failed) -->
+</suite> <!-- Failed suite [Parallel Suite] -->

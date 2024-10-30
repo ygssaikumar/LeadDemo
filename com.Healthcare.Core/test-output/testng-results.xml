@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69959" started-at="2024-10-20T08:26:11Z" finished-at="2024-10-20T08:27:21Z">
+    <groups>
+    </groups>
+    <test name="Multiple Test" duration-ms="69959" started-at="2024-10-20T08:26:11Z" finished-at="2024-10-20T08:27:21Z">
+      <class name="Healthcare.com.Healthcare.Core.MultipleCustomerLoginTest">
+        <test-method status="PASS" signature="intilize()[pri:0, instance:Healthcare.com.Healthcare.Core.MultipleCustomerLoginTest@2ea6137]" name="intilize" is-config="true" duration-ms="8436" started-at="2024-10-20T13:56:11Z" finished-at="2024-10-20T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilize -->
+        <test-method status="PASS" signature="loginTest_TC1()[pri:0, instance:Healthcare.com.Healthcare.Core.MultipleCustomerLoginTest@2ea6137]" name="loginTest_TC1" duration-ms="59350" started-at="2024-10-20T13:56:20Z" description="Test MultipleCustomerLoginTest" finished-at="2024-10-20T13:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_TC1 -->
+        <test-method status="PASS" signature="selectDropDownValues()[pri:0, instance:Healthcare.com.Healthcare.Core.MultipleCustomerLoginTest@2ea6137]" name="selectDropDownValues" duration-ms="384" started-at="2024-10-20T13:57:19Z" description="Test selectDropDownValues" finished-at="2024-10-20T13:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropDownValues -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Healthcare.com.Healthcare.Core.MultipleCustomerLoginTest@2ea6137]" name="close_browser" is-config="true" duration-ms="1762" started-at="2024-10-20T13:57:19Z" finished-at="2024-10-20T13:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Healthcare.com.Healthcare.Core.MultipleCustomerLoginTest -->
+    </test> <!-- Multiple Test -->
+  </suite> <!-- Suite -->
+</testng-results>

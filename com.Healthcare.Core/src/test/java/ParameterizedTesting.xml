@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Parameterized Test">
+      <parameter name ="browser" value="firefox"/>
+      <parameter name="username" value="selenium"/>
+      <parameter name="password" value="selenium123"></parameter>
+  
+      
+    <classes>
+      <class name="Healthcare.com.Healthcare.Core.ParameterizedTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
